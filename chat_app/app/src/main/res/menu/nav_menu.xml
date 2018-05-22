@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/baseline_account_circle_black_36"
+            android:title="我"/>
+        <item
+            android:id="@+id/nav_card_dict"
+            android:icon="@drawable/baseline_style_black_36"
+            android:title="卡片"/>
+        <item
+            android:id="@+id/nav_line"
+            android:icon="@drawable/baseline_send_black_36"
+            android:title="进入情节"/>
+
+        <item
+            android:id="@+id/nav_experience"
+            android:icon="@drawable/baseline_dashboard_black_36"
+            android:title="经历"/>
+
+    </group>
+</menu>
